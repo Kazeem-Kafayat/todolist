@@ -1,0 +1,131 @@
+/* CSS styles for your web components */
+
+body {
+    background-color: #E5E5F5;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.arrow-head {
+    display: flex;
+}
+
+.arrow-head p {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    height: 20%;
+}
+
+.todo-list {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.todo-list h2 {
+    margin-bottom: 10px;
+}
+
+.todo-header h2 {
+    margin-top: 30px;
+}
+
+.todo-list button {
+    margin-left: 10px;
+}
+
+.todo-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.todo-list input[type="radio"] {
+    margin-right: 10px;
+}
+
+.todo-buttons {
+    margin-top: 20px;
+}
+
+.todo-list .add-button {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    padding: 12px;
+    color: black;
+    font-size: 20px;
+    float: right;
+    /* Align the plus button to the right */
+    margin-top: -40px;
+}
+
+.todo-list .tick {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 16px;
+    /* Adjust size as needed */
+    height: 16px;
+    /* Adjust size as needed */
+    background-color: #000;
+    /* Color of the tick mark */
+    border-radius: 50%;
+    display: none;
+    /* Hide the tick mark by default */
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container button {
+    border-radius: 22px;
+    margin-top: 5px;
+    margin-right: 10px;
+    flex: 1;
+    padding: 8px;
+    border: none;
+    margin-bottom: 12px;
+}
+
+.add-button {
+    border-radius: 12px;
+}
+
+
+/* Different colors for each button */
+
+.daily {
+    background-color: #F5ED84;
+}
+
+.weekly {
+    background-color: #92AD78;
+}
+
+.monthly {
+    background-color: #F5A8A8;
+}
+
+.occasional {
+    background-color: #B3B3EF;
+}
